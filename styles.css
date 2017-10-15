@@ -22,5 +22,39 @@ li {
 	padding-right: 2%;
 }
 
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.slider {
+	width: 100%;
+	margin: 2em auto;
+}
 
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
 
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+#www1{
+    border: 1px solid #BDBCBD;
+    margin-top: 1300px;
+    min-height: 100%;
+    outline: medium none;
+    overflow: visible;
+    position: relative;
+}
