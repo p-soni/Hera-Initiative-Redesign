@@ -1,0 +1,26 @@
+ul{
+	padding:0;
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	color: #6059ff;
+}
+
+#logo {
+	list-style: none;
+	padding-right: 35%;
+	margin-left: 2%;
+	font-size: 30px;
+	width: 20%;
+	/*font-family: 'Oswald', sans-serif;*/
+}
+
+
+li {
+	display: inline-block;
+	/*width: max-content;*/
+	text-align: right;
+	padding-right: 2%;
+}
+
+
+
