@@ -1,8 +1,59 @@
+.donate img{
+	position: relative; 
+	width: 100%;
+}
+
+.quote {
+    position: absolute;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    bottom: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    white-space: nowrap;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.button {
+	position: absolute;
+	bottom: 500px;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #6059ff; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+}
+
+.words{
+	position: absolute;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    bottom: 650px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-color: rgba(255,255,255, 0.6);
+}
+
+.contact{
+	width:100%;
+	height: 500px;
+	color: orange;
+}
+
 ul{
 	padding:0;
 	width: 100%;
 	font-family: 'Oswald', sans-serif;
 	color: #6059ff;
+	background-color: white;
+	position: relative;
 }
 
 #logo {
@@ -21,6 +72,113 @@ li {
 	text-align: right;
 	padding-right: 2%;
 }
+
+html,body {
+	margin: 0;
+	height: 100%;
+}
+
+.slider {
+	width: 100%;
+	margin: 2em auto;
+	position: relative;
+}
+
+.slider-wrapper img{
+	width: 100%;
+	height: auto;
+}
+
+.slider-wrapper {
+	width: 100%;
+	position: absolute;
+}
+
+.slide{
+	float: left;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+	transition: opacity 3s linear;
+	position: relative;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+
+.box{
+	width: 100%;
+	height: auto;
+}
+
+
+.container {
+	overflow: auto;
+}
+
+.slider {
+    position: relative;
+    top: 0;
+}
+
+.box1{
+	position: relative;
+	padding-top: 1650px;
+	font-family: 'Oswald', sans-serif;
+	color: #6059ff;
+}
+
+
+.one img{
+	width:100%;
+	height: auto;
+	margin-left: 20px;
+}
+
+.one{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 25px;
+}
+
+.box1 .one:nth-child(2n){
+	margin-right: 75px;
+}
+
+.box2{
+	padding-top: 100px;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	color: #6059ff;
+}
+
+.box3{
+	padding-top: 100px;
+	position: relative;
+	font-family: 'Oswald', sans-serif;
+	color: #6059ff;
+}
+
+.two img{
+	width: 100%;
+	height: auto;
+	margin-left: 20px;
+}
+
+.two{
+	width:45%;
+	display: inline-block;
+	padding-top: 25px;
+	vertical-align: top;
+}
+
+.box3 .two:nth-child(2n){
+	margin-right: 75px;
+}
+
 
 
 
