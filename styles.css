@@ -6,9 +6,12 @@ html,body {
 .navbar{
 	width: 100%;
 	font-family: 'Oswald', sans-serif;
-	color: #6059ff;
-	background-color: white;
+	color: #FF1769;
+	/*#ffe2fc;*/
+	background-color:#CFD7FB; 
+	/*#7584cc;*/
 	position: relative;
+	margin-bottom: 0;
 }
 
 #logo {
@@ -22,6 +25,7 @@ html,body {
 .navbar ul {
 	width: 45%;
 	display: inline-block;
+	font-style: italic;
 }
 .navbar li {
 	display: inline-block;
@@ -36,11 +40,27 @@ html,body {
 	width: 100%;
 	margin: 2em auto;
 	position: relative;
+	margin-top: 0px;
 }
 
 .slider-wrapper img{
 	width: 100%;
 	height: 100%;
+	position:relative;
+}
+.slider-wrapper h4{
+   	text-align: center;
+   	margin-left: 4%;
+   	margin-top: 5%;
+   	font-size: 250%;
+    font-style: italic;
+    font-family: 'Luminari, fantasy';
+	color:black;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 5px;
+	padding:5px;
+	position: absolute;
 }
 
 .slider-wrapper {
@@ -76,9 +96,12 @@ html,body {
 
 .box1{
 	position: relative;
-	padding-top: 1000px;
+	padding-top: 5%;
+	padding-bottom: 10%;
+	margin-top: 700px;
 	font-family: 'Oswald', sans-serif;
-	color: #6059ff;
+	color: #FF1769;
+	background-color: #dbe7e7;
 }
 
 
@@ -109,7 +132,15 @@ html,body {
 	padding-top: 250px;
 	position: relative;
 	font-family: 'Oswald', sans-serif;
-	color: #6059ff;
+	color: #FF1769; 
+	padding-top: 2%;
+	padding-bottom: 10%;
+}
+.box2 {
+	background-color: #cecaf4;
+}
+.box3 {
+	background-color: #ddf2ee;
 }
 
 
@@ -145,12 +176,12 @@ html,body {
 }
 
 .bottom {
-    z-index: 100; 
     bottom: 0px; 
     left: 0;
     width: 100%;
-    background-color: #ECEAE9;
+    background-color: #CFD7FB;
     padding-bottom: 2%;
+    margin-bottom: -200px;
 }
 
 .bottom h1{
